@@ -1,7 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url("images/pattern20.jpg")
+    background-image: url("images/pattern20.jpg");
+    background-image: fixed;
+    background-attachment: fixed;
 }
 h1{
     font-family: nimbus-sans, sans-serif;
@@ -62,7 +64,7 @@ img{
     height: 35vh;
     float: right;
     margin-left: 800px;
-    margin-top:-104px;
+    margin-top: -120px;
 }
 .box1{
     width: 100%;
@@ -75,14 +77,13 @@ img{
     width: 650px;
     float: left;
     margin-left: 120px;
-    margin-top:-600px;
+    margin-top:-550px;
 }
 .title2{
     width: 20vw;
     height: 12vh;
     margin-left: 100px;
     margin-top: 15px;
-
 }
 .title2_1{
     color: #D3C4D6;
@@ -93,7 +94,7 @@ img{
     height: 16vh;
     background-color: #E2CA6A;
     margin-left: -15px;
-    margin-top: -14vh;
+    margin-top: -100px;
 }
 .precis_grid{
     width: 90%;
@@ -109,14 +110,14 @@ img{
     height: 10.5vh;
     color: #8A5993;
     padding-top: -50px;
-    margin-left: 80px;
+    margin-left: 130px;
 }
 .section2_paragraph{
-    width: 38vw;
+    width: 32vw;
     height: 18.5vh;
     color: white;
-    margin-left: 90px;
-    padding-top: 20px;
+    margin-left: 150px;
+    padding-top: 30px;
 }
 .box3{
     width: 90vw;
@@ -134,7 +135,7 @@ img{
   
 }
 .section3_images{
-    width: 18vw;
+    width: 13.5vw;
     height: auto;
     float: left;
     display: block;
@@ -145,8 +146,9 @@ img{
 }
 .section3_text{
     width: 55vw;
-    height: 135vh;
+    height: auto;
     margin-top: 100px;
     margin-right: 150px;
+    margin-bottom: 250px;
     float: right;
 }

@@ -10,12 +10,12 @@
     </head>
     <body>
         <div class="opening_spread">
-            <div class="title1">
+            <div class="title1 rellax" data-rellax-speed="3">
                 <h1>Kansas:</h1>
                 <h3>The Breadbasket of America</h3>
             </div>
             <div class="box1"></div>
-            <div class="opening_image">
+            <div class="opening_image rellax" data-rellax-speed="6">
                 <img src="images/prep.jpg" alt="prep">
             </div>
         </div>
@@ -23,7 +23,7 @@
             <h3>Where's Kansas on your plate?</h3>
             <div class="box2"></div>
         </div>
-        <div class="precis_grid">
+        <div class="precis_grid front-one rellax" data-rellax-speed="1.5">
             <div class="precis">
                 <div class="paragraph">
                     <div class="title2_1">
@@ -56,7 +56,7 @@
             </div>
         </div>
         <div class="section2">
-            <div class="title3">
+            <div class="title3 rellax" data-rellax-speed="3">
                 <h6>A Closer Look</h6>
             </div>
             <div class="section2_paragraph">
@@ -64,10 +64,10 @@
             </div>
             <div class="box3"></div>
         </div>
-        <div class="image2">
+        <div class="image2 rellax" data-rellax-speed="3">
             <img src="images/cooked plate.jpg">
         </div>
-        <div class="section3_images">
+        <div class="section3_images rellax" data-rellax-speed="1.5">
             <div class="image3">
                 <img src="images/steak.jpg">
             </div>
@@ -81,7 +81,7 @@
                 <img src="images/apples.jpg">
             </div>
         </div>
-        <div class="section3_text">
+        <div class="section3_text rellax" data-rellax-speed="1">
             <div class="food_text">
                 <div class="title4">
                     <h5>KC Strip</h5>
@@ -115,5 +115,16 @@
                 </div>
             </div>
         </div>
+
+        <script src="rellax.min.js"></script>
+        <script>
+          var rellax = new Rellax('.rellax');
+        </script>
+        <script>
+            // Center all the things!
+            var rellax = new Rellax('.rellax', {
+                center: true
+            });
+        </script>
     </body>
 </html>
